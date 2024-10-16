@@ -1,0 +1,27 @@
+.s-controller__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1;
+  transition: 0.3s ease-in-out;
+}
+
+.s-controller__button--active {
+  background-color: #fff;
+  color: var(--primary-color);
+  border: 0.18rem solid var(--primary-color);
+  outline: 0.18rem solid #fff;
+}
+
+.s-controller__button:hover {
+  transform: scale(1.1);
+}

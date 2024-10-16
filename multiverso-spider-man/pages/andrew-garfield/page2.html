@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiverso | Spiderman</title>
+
+
+
+  <!--CSS-->
+  <link rel="stylesheet" href="../../assets/css/reset.css">
+  <link rel="stylesheet" href="../../assets/css/global.css">
+  <link rel="stylesheet" href="../../assets/css/internal.css">
+  <link rel="stylesheet" href="../../assets/css/components/_navigator.css">
+  <link rel="stylesheet" href="../../assets/css/components/_pills.css">
+  <link rel="stylesheet" href="../../assets/css/components/_link-button.css">
+  <link rel="stylesheet" href="../../assets/css/components/_gallery.css">
+  <link rel="stylesheet" href="../../assets/css/components/_controller_button.css">
+
+  <!--FancyBox-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+</head>
+
+<body>
+  <div class="s-wrapper">
+
+    <video autoplay loop muted>
+      <source src="../../assets/videos/amazing-spiderman2-2014-trailer.mp4" type="video/mp4">
+    </video>
+
+    <div class="s-left-column">
+      <nav class="navigator">
+        <div class="navigator-icon">
+          <a href="../../index.html">
+            <img src="../../assets/images/icons/spiderman1-andrew.png" alt="Logo de aranha">
+          </a>
+        </div>
+
+        <ul>
+          <li>
+            <a href="index.html">01</a>
+          </li>
+
+          <li>
+            <a href="page2.html" class="actived">02</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="s-main-content ">
+      <div class="s-main-content__top">
+        <div class="s-logo">
+          <img src="../../assets/images/spiderman-andrew/movie-02/logo.png" alt="O espetacular homem aranha 2"
+            title="Spiderman (2002)">
+        </div>
+
+        <div class="s-description">
+          <div class="pills">
+            <ul>
+              <li>Ano: 2014</li>
+              <li>Marc Webb</li>
+            </ul>
+          </div>
+
+          <div class="s-description__text">
+            <p>
+              <strong>Sinopse:</strong>&nbsp;
+              Agora com sua identidade como o Homem-Aranha consolidada, Peter Parker tenta conciliar sua vida heroica com seu relacionamento com Gwen Stacy. Ele enfrenta um novo e poderoso vilão, Electro, que ameaça a cidade. Além disso, seu antigo amigo Harry Osborn retorna, revelando segredos sobre a Oscorp e colocando Peter em uma situação difícil. O filme explora a luta de Peter contra inimigos cada vez mais perigosos e os sacrifícios que ele precisa fazer para proteger aqueles que ama.
+            </p>
+          </div>
+        </div>
+
+        <div class="s-links">
+          <ul>
+            <li>
+              <a href="https://www.youtube.com" class="link-button" target="_blank">
+                <span class="icon">
+                  <div class="play-icon">&nbsp;</div>
+                </span>
+                <span class="label">
+                  Assistir ao trailer
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="s-main-bottom">
+        <div class="gallery">
+          <ul>
+            <li>
+              <a data-fancybox href="../../assets/images/spiderman-andrew/movie-02/gallery/image-01.png">
+                <img src="../../assets/images/spiderman-andrew/movie-02/gallery/image-01.png"
+                  alt="Imagem 1 do filme  o espetacular homem aranha 2">
+              </a>
+            </li>
+            <li>
+              <a data-fancybox href="../../assets/images/spiderman-andrew/movie-02/gallery/image-02.png">
+                <img src="../../assets/images/spiderman-andrew/movie-02/gallery/image-02.png"
+                  alt="Imagem 2 do filme  o espetacular homem aranha 2">
+              </a>
+            </li>
+            <li>
+              <a data-fancybox href="../../assets/images/spiderman-andrew/movie-02/gallery/image-03.png">
+                <img src="../../assets/images/spiderman-andrew/movie-02/gallery/image-03.png"
+                  alt="Imagem 2 do filme  o espetacular homem aranha 2">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script>
+    const options = {
+      Toolbar: {
+        display: {
+          left: ["infobar"],
+          middle: [
+            "zoomIn", 
+            "zoomOut", 
+            "toggle1to1", 
+            "rotateCCW", 
+            "rotateCW", 
+            "flipX", 
+            "flipY"
+          ],
+          right: ["slideshow", "thumbs", "close"],
+        },
+      },
+    };
+  
+    Fancybox.bind("[data-fancybox]", options);
+  </script>
+  
+</body>
+
+</html>
